@@ -1,6 +1,15 @@
 // --- Conversor de Moedas ---
 //  O objetivo deste código é simular um conversor de moedas simples, onde o usuário pode converter um valor em dólares para reais usando uma taxa de câmbio fixa. Identifique os erros presentes no código e corrija-os para que o conversor funcione corretamente.
 
+
+
+//Foram redimensionados os blocos para melhor compreensão, também foi trocado o tipo da string na 
+// variável valor para um number, foi passado o transacao.valor para a chamada da função
+//Foram atribuídos os valores lógicos true e false para a função e a taxaDolar foi atribuído como 
+// number
+//Exclui um console.log ao emitir a mensagem pois estava sobrando no código
+
+
 const taxaDolar = 5.50;
 const valorFinal = converterParaReal(10);
 

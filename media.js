@@ -1,6 +1,10 @@
 // --- Sistema de média de alunos ---
 // O objetivo deste código é calcular a média de um aluno com base em suas notas e determinar se ele foi aprovado ou reprovado. Identifique os erros presentes no código e corrija-os para que o sistema funcione corretamente.
 
+
+//As condições lógicas foram colocadas dentro do bloco da função 
+// juntamente com o status e passadas as variáveis para o escopo da função
+
 const nomeAluno = "Mariana";
 const nota1 = 8;
 const nota2 = 5;

@@ -1,5 +1,8 @@
 // --- Calculadora de Consumo de Combustível ---
 
+//Alterei os tipos dos atributos diesel e distancia para number, coloquei o console.log(mensagem); dentro do escopo da condição e alterei a variável custoTotal para resultadoGasolina
+// pois os valores são os mesmos após a atribuição
+
 const precos = {
   gasolina: 5.8,
   alcool: 3.9,

@@ -3,12 +3,19 @@
 // onde o usuário pode aplicar um desconto em um produto e atualizar o estoque. 
 // Identifique os erros presentes no código e corrija-os para que o sistema funcione corretamente.
 
+
+// Foi atribuido um number à variável preco, foi passado um objeto na função e foi 
+// retirado o tipo string do "um" e passado o tipo number 1
+
+
 const produto = {
   nome: "Teclado Gamer",
   preco: 150.00,
   estoque: 10,
 };
 
+
+// Desconto em porcentagem
 function aplicarDesconto(valor) {
   return valor * 0.8;
 }

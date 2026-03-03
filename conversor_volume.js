@@ -1,5 +1,10 @@
 // --- Conversor de Medidas de Fábrica ---
 
+//Alterei o tipo da variável mlPorLitro para number, atribui o valor de comparação igual na condição 
+//producaoDia.lote1 == 0,
+//As operações matemáticas para alcançar o resultado correto das transformações foram também alteradas, 
+// sendo que inverteu a multiplicação pela divisão e a soma pela multiplicação
+
 const mlPorLitro = 1000;
 const estoqueBaixo = true;
 
